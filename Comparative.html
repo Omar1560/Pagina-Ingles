@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Comparatives</title>
+	<link rel="stylesheet" type="text/css" href="Proyecto.css">
+	<style>
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #777;
+}
+</style>
+</head>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Arriba</button>
+
+<script>
+// Mostrar el botón cuando se haya desplazado 20px desde la parte superior de la página
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// Hacer scroll hacia arriba cuando se haga clic en el botón
+function topFunction() {
+  document.body.scrollTop = 0; // Para Safari
+  document.documentElement.scrollTop = 0; // Para Chrome, Firefox, IE y Opera
+}
+</script>
+</head>
+<body style="background-color: #CAFFFF">
+	<table width="100%;">
+		<tr>
+			<th><font size="5" color="black" face="Broadway"><center>Comparatives</center></font></th>
+		</tr>
+	</table>
+	<br>
+	<ul class="Menu">
+		<li><a href="Proyecto.html">Inicio</a></li>
+		<li><a href="Comparative.html">Comparatives</a></li>
+		<li><a href="Superlative.html">Superlatives</a></li>
+		<li><a href="Correlatives.html">Correlatives</a></li>
+		<li><a href="Adverbs of Frecuency.html">AF</a></li>
+		<li><a href="Adverbs of Manner.html">AM</a></li>
+	</ul>
+	<p>
+		<table width="100%;">
+			<tr>
+				<th>
+					<font color="Blue" size="4">Use:<br></font>
+					Se usan para comparar, destacar o constrastar diferencias entre 2<br>o mas objetos a los que se esta refiriendo.
+					<br>
+					<font color="Blue" size="4">Structure:<br></font>
+					Sujeto + Verbo + Adjetivo comparativo + Than + Objeto.
+					<br>
+					<font color="red" size="3">Nota:<br>Si el comparativo, termina en -e- colocar -r-.</font>
+					<br>
+					<font color="Blue" size="4">Rule:<br>Adjetivos de 1 Silaba<br></font>
+					En este caso se añade -er- para el comparativo y -est- para el superlativo.
+					<br>
+					<font color="Red" size="4">Note:<br>Si termina en c + v + e se debe repitir la<br>ultima constante antes de la terminacion</font>
+					<br>
+					<font color="Blue" size="4">Adjetivos de 2 Silabas<br></font>
+					Puden terminar con -er- colocando -more- delante del adjetivo, estos<br>tambien pueden formar el superlativo añadiendo -est- o -most- delante del adjetivo.<br>
+					<font color="Red" size="4">Nota:<br>Cuando un adjetivo termina en -y- hay que cambiarpor, antes de<br>la terminacion</font>
+					<br>					
+					<font color="Blue" size="4">Adjetivos de 3 Silabas<br></font>
+					Los adjetivos de tres silabas o mas forman el comparativo colocando -more- anes del adjetivo y el<br>superlativo colocando
+					-most-.
+					<br>
+					<font color="Blue" size="4">Comparativos irregulares<br></font>
+					<table>
+						<tr>
+							<th>Good</th>
+							<th>Better</th>
+						</tr>
+						<tr>
+							<th>Bad</th>
+							<th>Worse</th>
+						</tr>
+						<tr>
+							<th>Litle</th>
+							<th>less</th>
+						</tr>
+						<tr>
+							<th>Much</th>
+							<th>More</th>
+						</tr>
+						<tr>
+							<th>Far</th>
+							<th>Farther</th>
+						</tr>
+					</table>
+					<font color="Blue" size="4">Example<br></font>
+					-You play tennis better than I do.<br>
+					-This sweater is less expensive than that one.<br>
+					-I ran pretty far yesterday, but I ran ever father today.<br>
+
+
+
+
+
+				</th>
+			</tr>
+		</table>
+
+	</p>
+
+</body>
+</html>

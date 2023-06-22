@@ -1,0 +1,45 @@
+        body{
+            font-family: Arial Rounded MT;
+        }
+        .Menu{
+            list-style: none;
+            padding: 0;
+            background: #3C3C3C;
+            width: 100%;
+            max-width: 100%;
+            margin: auto;
+        }
+        .Menu li a{
+            text-decoration: none;
+            color: white;
+            padding: 20px;
+            display: block;
+        }
+        .Menu li{
+            display: inline-block;
+            text-align: center;
+        }
+        .Menu li a:hover{
+            background: #FFA042;
+
+        }
+        .Noticias{
+        	font-size: 23px;
+        	color: purple;
+        }
+        hr{
+            padding: 0px;
+            border: 2px solid black;
+        }
+        .Imagen1{justify-content: center; display: flex; margin-top: 30px; }
+
+        table, th, td{
+            border: 3px solid black;
+            border-collapse: collapse;
+        }
+        th, td{
+            padding: 5px;
+        }
+        th, td {
+            text-align: left;
+        }
